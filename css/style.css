@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.logo{
+    width: 100%;
+    margin: 20px;
+    font-size: 20px;
+}
+.logo img{
+    vertical-align: middle;
+    width: 30px;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    float: left;
+}
+.left-cont{
+    width: 60%;
+    float: left;
+    padding: 50px;
+}
+.right-cont{
+    width: 40%;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+.right-cont img{
+    width: 350px;
+}
+.right-cont a{
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+}
+.right-cont a:hover{
+    color: #E55713;
+}
+.left-cont h2{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+.left-cont p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 18px 0;
+}
+.btn-primary{
+    padding: 15px 35px;
+    background: #E55713;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #ED6524;
+    margin-right: 20px;
+}
+.btn-secondary{
+    padding: 15px 35px;
+    background: transparent;
+    border-radius: 30px;
+    color: #E55713;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #ED6524;
+    transition: all 0.3s ease-in-out;
+}
+.btn-secondary:hover{
+    background: #E55713;
+    color: #fff;
+}
+.comment{
+    width: 100%;
+    background: #F6F8FC;
+    position: relative;
+    padding: 20px 30px;
+    border-left: 3px solid #ED6524;
+    margin: 45px 45px 0 0;
+}
+.comment p{
+    font-style: italic;
+    font-size: 20px;
+    color: #4C527D;
+}
+.comment-box{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: #F6F8FC;
+    bottom: -12px;
+    left: 45px;
+    transform: rotate(45deg);
+}
+.comment-user{
+    width: 100%;
+    float: left;
+    margin: 20px 15px;
+}
+.comment-user .user-img{
+    width: 12%;
+    float: left;
+}
+.user-img img{
+    width: 50px;
+}
+.comment-user .user-cont{
+    width: 88%;
+    float: right;
+    padding: 8px;
+}
+.user-cont p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.book-corner {
+    width: 115px;
+    height: 115px;
+    background: #5CB377;
+    top: -30px;
+    right: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+.book-corner p {
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding-top: 35px;
+}
+/* service section css start */
+
+.service{
+    width: 100%;
+    padding: 10%;
+}
+.service .service-title{
+    padding: 30px;
+    text-align: center;
+}
+.service-title p{
+    padding: 20px 22%;
+}
+.service-sec{
+    width:100%;
+}
+.service-sec .item {
+    width: 33%;
+    text-align: center;
+    padding: 30px;
+    float: left;
+}
+.item i{
+    font-size: 38px;
+    color: #ED6524;
+}
+.service-sec .item p{
+    text-align: justify;
+}
+
+/* service section css end */
+/* Bannar section css start */
+.bannar{
+    width: 100%;
+    float: left;
+    padding: 80px;
+}
+.bannar-head{
+    padding-bottom: 50px;
+}
+.bannar-head h2{
+    text-align: center;
+    font-size: 35px;
+}
+.bannar .left-side{
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+.bannar .left-side img{
+    width: 80%;
+}
+.bannar .list{
+    width: 55%;
+    float: right;
+    padding: 15px;
+    margin: 20px;
+}
+.bannar .list li{
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+.bannar .list li i{
+    color: #7FCDB8;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.list .btn-info{
+    text-align: center;
+    padding: 15px 35px;
+    background: #E55713;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #ED6524;
+    margin: 20px 20%;
+}
+.user{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.user-title p{
+    padding: 20px 29%;
+}
+.user .user-sec{
+    width: 50%;
+    margin: 0 auto;
+}
+.user-info{
+    padding: 50px;
+}
+.user-info .user-logo{
+    width: 20%;
+    float: left;
+    font-size: 25px;
+    color: #7FCDB8;
+} 
+.user-info .user-data{
+    width: 80%;
+    float: left;
+    text-align: left;
+}
+/* Bannar section css end */
+.form{
+    width: 100%;
+}
+.form .form-data{
+    width: 50%;
+    background: #F6F8FC;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+.form-data p{
+    font-size: 17px;
+    margin: 15px 0;
+}
+.form-data input{
+    width: 60%;
+    padding: 15px 0;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+}
+.form-data button{
+    text-align: center;
+    padding: 15px 35px;
+    background: #E55713;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #ED6524;
+}
+
+/* Review sec css here */
+.review{
+    width: 100%;
+    padding: 40px 0;
+}
+.review .review-head{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.review-head h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.review-head h4{
+    font-size: 25px;
+}
+.review .review-body{
+    width: 100%;
+    float: left;
+    padding: 35px;
+    
+}
+.review .review-body1{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    margin: 5px 16%;
+    
+}
+.review-body .review-item{
+    width: 31%;
+    padding: 30px 20px 5px;
+    background: #F6F8FC;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.review-body1 .review-item{
+    width: 31%;
+    padding: 30px 20px 5px;
+    background: #F6F8FC;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.review-item .icon{
+    width: 40px;
+    height: 40px;
+    background: #F5A782;
+    position: absolute;
+    border-radius: 50%;
+    padding: 12px;
+    top: -20px;
+    left: 45%;
+    color: #fff;
+}
+.review-item p{
+    text-align: justify;
+    font-style: italic;
+    font-size: 18px;
+}
+.review-item .review-pers{
+    width: 30%;
+    float: left;
+    padding-top: 10px;
+}
+.review-pers img{
+    width: 67px;
+}
+.review-item .review-info{
+    width: 70%;
+    float: right;
+    padding-top: 25px;
+}
+.review-info p{
+    font-style: normal;
+}
+.btn-warning{
+    text-align: center;
+    margin: 30px 0;
+} 
+.btn-warning button{
+    padding: 20px 35px;
+    background: #E55713;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #ED6524;
+}
+.footer{
+    width: 100%;
+    background: #ED6524;
+    color: #fff;
+    text-align: center;
+    padding: 45px;
+    margin: 50px 0;
+}
+.footer .about{
+    padding: 30px;
+}
+.about img{
+    width: 120px;
+}
+.about h1{
+    margin: 10px;
+}
+.about p{
+    text-align: left;
+    padding: 0 20%;
+    font-size: 19px;
+}
+.social-icon{
+    padding: 20px;
+}
+.social-head{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.social-icon ul li{
+    display: inline-block;
+    border: 1px solid #CA561F;
+    background: #CA561F;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.social-icon ul li a{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
